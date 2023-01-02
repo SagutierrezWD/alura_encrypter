@@ -1,0 +1,160 @@
+:root {
+    --altSiteColor:#0A3871;
+    --backSiteColor:#E5E5E5;
+}
+
+
+/* Base */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+body, main, nav {
+    background-color: var(--backSiteColor);
+}
+
+/* Nav */
+nav{
+    margin: 0 0 60px 0;
+}
+
+nav img {
+    margin: 10px 0 0 5px;
+}
+
+
+/* Input query */
+.query {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.query textarea {
+    width: 95%;
+    padding: 5px;
+    font-size: 8vw;
+    border: none;
+    background-color: transparent;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: var(--altSiteColor);
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--altSiteColor);
+}
+
+::placeholder {
+    color: var(--altSiteColor);
+}
+
+
+/* Informacion */
+.info {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 20px 0;
+}
+
+.info img {
+    margin: 0 5px 0 15px;
+}
+
+.info span {
+    color: gray;
+    font-size: 3.5vw;
+    margin: 2px 0 0 0;
+}
+
+
+/* Acciones */
+.actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actions button {
+    width: 92%;
+    font-size: 4vw;
+
+    height: 16vw;
+    border-radius: 15px;
+
+    margin: 0 0 20px 0;
+}
+
+.actions #encrypt {
+    background-color: var(--altSiteColor);
+    color: var(--backSiteColor);
+}
+
+.actions #desencrypt {
+    background-color: transparent;
+    color: var(--altSiteColor);
+    border: 1px solid var(--altSiteColor);
+}
+
+
+/* Resultados */
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result .card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 0 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.card .title {
+    font-size: 6.5vw;
+    color: #343A40;
+    font-weight: 700;
+    text-align: center;
+
+    
+}
+
+.card p {
+    font-size: 4vw;
+    color: #495057;
+    text-align: center;
+
+    
+}
+
+.card .result_text {
+    font-size: 5vw;
+    color: #495057;
+
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.card #copy {
+    display: none; /* mostrar con inline-block */
+    width: 0;
+    height: 0;
+}
