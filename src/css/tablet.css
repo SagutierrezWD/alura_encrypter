@@ -1,0 +1,59 @@
+@media screen and (min-width:768px) {
+    /* Nav */
+    nav img {
+        margin: 40px 0 0 20px;
+    }
+    
+    /* Input query */
+    .query textarea {
+        font-size: 4vw;
+        height: 60vh;
+        width: 80%;
+    }
+
+    /* Informacion */
+    .info img {
+        margin: 0 5px 0 7.5vw;
+    }
+
+    .info span {
+        font-size: 2vw;
+    }
+
+    /* Acciones */
+
+    .actions {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .actions button {
+        font-size: 2.5vw;
+        width: 40%;
+        height: 6.5vw;
+    }
+
+    .actions #encrypt {
+        margin-left: 4vw;
+    }
+
+    .actions #desencrypt {
+        margin-right: 4vw;
+    }
+
+    .part2 {
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+    }
+
+    .card .title {
+        font-size: 2.5vw;
+    }
+
+    .card p {
+        font-size: 2vw;
+    }
+
+}
+

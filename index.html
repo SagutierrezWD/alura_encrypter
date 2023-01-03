@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador - Alura</title>
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/tablet.css">
     <link rel="shortcut icon" href="src/resources/icono.svg" type="image/x-icon">
 </head>
 <body>
@@ -15,39 +16,48 @@
     </nav>
 
     <main>
-        <section class="query">
-            <textarea name="query" id="query" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
-        </section>
 
-        <section class="info">
-            <img src="src/resources/informacion.svg" alt="Ícono de información">
-            <span>Solo letras minúsculas y sin acentos</span>
-        </section>
+        <div class="part1">
+            
+            <section class="query">
+                <textarea name="query" id="query" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            </section>
+            
+            <section class="info">
+                <img src="src/resources/informacion.svg" alt="Ícono de información">
+                <span>Solo letras minúsculas y sin acentos</span>
+            </section>
 
-        <section class="actions"> 
-            <button id="encrypt">
-                Encriptar
-            </button>
-
-            <button id="desencrypt">
-                Desencriptar
-            </button>
-        </section>
-
-        <section class="result">
-            <div class="card">
-                <span class="title">
-                    Ningún mensaje fue encrontrado
-                </span>
-                <p>
-                    Ingresa el texto que desees encriptar o desencriptar.
-                </p>
-                <p class="result_text"></p>
-                <button id="copy">
-                    Copiar
+            <section class="actions"> 
+                <button id="encrypt">
+                    Encriptar
                 </button>
-            </div>
-        </section>
+                
+                <button id="desencrypt">
+                    Desencriptar
+                </button>
+            </section>
+        </div>
+            
+        <div class="part2">
+            
+            <section class="result">
+                <div class="card">
+                    <span class="title">
+                        Ningún mensaje fue encontrado
+                    </span>
+                    <p>
+                        Ingresa el texto que desees encriptar o desencriptar.
+                    </p>
+                    <p class="result_text"></p>
+                    <button id="copy">
+                        Copiar
+                    </button>
+                </div>
+            </section>
+
+        </div>
+            
     </main>
     
     <script src="src/js/script.js"></script>
