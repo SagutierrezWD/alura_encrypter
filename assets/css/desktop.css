@@ -1,0 +1,85 @@
+@media screen and (min-width:1024px) {
+    /* Area 1 */
+
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .seccion-entrada {
+        width: var(--desktopWidthA1);
+        height: 100%;
+        margin-left: 100px;
+    }
+    
+    .seccion-entrada__logo {
+        margin-top: 40px;
+        margin-left: -150px;
+    }
+    
+    .seccion-entrada__text-area {
+        height: 90%;
+        font-size:1rem ;
+        margin-left: 20px;
+    }
+
+    .seccion-entrada__mensaje {
+        margin-top: 80px;
+        height: 5%;
+    }
+
+    .seccion-entrada__botones {
+        height: 20%;
+    }
+
+    .boton {
+        font-size: 0.8rem;
+        height: 3.2rem;
+    }
+    
+    .boton-azul, .boton-transparente {
+        margin-bottom: 40px;
+    }
+
+
+    /* Area 2 */
+
+    .seccion-salida {
+        width: var(--desktopWidthA2);
+    }
+
+    .seccion-salida__tarjeta {
+        width: var(--desktopCardWidth);
+        height: 100%;
+        margin-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    .tarjeta__ilustracion {
+        display: block;
+        width: 75%;
+    }
+
+    .tarjeta__titulo {
+        font-size: 1rem;
+    }
+
+    .tarjeta__texto {
+        font-size: 0.8rem;
+    }
+
+    .tarjeta__resultado {
+        width: 85%;
+        font-size: 1rem;
+        height: 80%;
+        margin-top: -75px;
+    }
+
+    .copiar {
+        margin-bottom: 0;
+        position: absolute;
+        bottom: 15px;
+        width: 80%;
+    }
+}

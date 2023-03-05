@@ -1,0 +1,37 @@
+@media screen and (min-width:768px) {
+    /* Area 1 */
+    
+    .seccion-entrada__text-area {
+        width: 85%;
+        height: 70%;
+    }
+    
+    .seccion-entrada__mensaje {
+        margin-left: 30px;
+    }
+    
+    .seccion-entrada__botones {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .mensaje__info {
+        font-size: 12px;
+    }
+
+    .boton {
+        width: 45%;
+        font-size: 1rem;
+    }
+
+    .mb-20_mobile {
+        margin-bottom: unset;
+    }
+
+
+    /* Area 2 */
+
+    .seccion-salida__tarjeta {
+        min-height: 100px;
+    }
+}
